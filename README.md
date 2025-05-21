@@ -162,9 +162,9 @@ Charts(dataJson: dataJson, configJson: configJson, scriptSetup: scriptSetup)
 ## Platform Support
 
 - **iOS**: Fully supported
-- **macOS**: Fully supported
-- **tvOS**: Fallback message (WebKit not supported)
-- **watchOS**: Fallback message (WebKit not supported)
+- **macOS**: Coming Soon
+- **tvOS**: (WebKit not supported)
+- **watchOS**:  (WebKit not supported)
 
 ## Troubleshooting
 

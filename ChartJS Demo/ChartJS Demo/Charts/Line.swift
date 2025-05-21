@@ -2,7 +2,7 @@
 //  Line.swift
 //  ChartJS
 //
-//  Created by Ming on 18/5/2025.
+//  Created by Ming on 21/5/2025.
 //
 
 import SwiftUI
@@ -189,6 +189,60 @@ import ChartJS
     GeometryReader { geometry in
         Charts(dataJson: dataJson, configJson: configJson, scriptSetup: scriptSetup)
             .frame(height: geometry.size.width > geometry.size.height ? 
+                  geometry.size.height : // landscape
+                  geometry.size.height * 0.3) // portrait
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .position(x: geometry.size.width/2, y: geometry.size.height/2)
+    }
+}
+
+#Preview("Stacked Bar/Line Chart") {
+    let dataJson = """
+    {
+        "labels": ["January", "February", "March", "April", "May", "June", "July"],
+        "datasets": [
+            {
+                "label": "Dataset 1",
+                "data": [65, 59, 80, 81, 56, 55, 40],
+                "borderColor": "rgb(255, 99, 132)",
+                "backgroundColor": "rgba(255, 99, 132, 0.5)",
+                "stack": "combined",
+                "type": "bar"
+            },
+            {
+                "label": "Dataset 2",
+                "data": [28, 48, 40, 19, 86, 27, 90],
+                "borderColor": "rgb(54, 162, 235)",
+                "backgroundColor": "rgba(54, 162, 235, 0.5)",
+                "stack": "combined"
+            }
+        ]
+    }
+    """
+    
+    let configJson = """
+    {
+        "type": "line",
+        "options": {
+            "plugins": {
+                "title": {
+                    "display": true,
+                    "text": "Chart.js Stacked Line/Bar Chart"
+                }
+            },
+            "scales": {
+                "y": {
+                    "stacked": true
+                }
+            }
+        }
+    }
+    """
+    
+    return GeometryReader { geometry in
+        Charts(dataJson: dataJson, configJson: configJson)
+            .frame(height: geometry.size.width > geometry.size.height ?
                   geometry.size.height : // landscape
                   geometry.size.height * 0.3) // portrait
             .padding()

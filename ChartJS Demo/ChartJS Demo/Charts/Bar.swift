@@ -2,7 +2,7 @@
 //  Bar.swift
 //  ChartJS
 //
-//  Created by Ming on 18/5/2025.
+//  Created by Ming on 21/5/2025.
 //
 
 import SwiftUI
@@ -357,5 +357,3 @@ import ChartJS
             .position(x: geometry.size.width/2, y: geometry.size.height/2)
     }
 }
-
-

@@ -1,8 +1,8 @@
 # ChartJS for Swift
 
-A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, responsive charts in your iOS and macOS applications.
+A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, responsive charts in your iOS ~~and macOS~~ applications.
 
-![ChartJS for Swift](https://raw.githubusercontent.com/chartjs/Chart.js/master/docs/docs/assets/img/chartjs-logo.svg)
+![ChartJS@3x](https://github.com/user-attachments/assets/9051153e-7d07-4b4f-8da7-fa9ac1793349)
 
 ## Features
 
@@ -14,7 +14,7 @@ A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, respo
 
 ## Requirements
 
-- iOS 13.0+ / macOS 10.15+
+- iOS 13.0+ / ~~macOS 10.15+~~(Coming Soon)
 - Swift 5.3+
 - Xcode 12.0+
 
@@ -26,13 +26,13 @@ Add this package to your project by adding the following to your `Package.swift`
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/ChartJS", from: "1.0.0")
+    .package(url: "https://github.com/1998code/ChartJS-for-Swift", from: "1.0.0")
 ]
 ```
 
 Or add it directly from Xcode:
 1. File > Swift Packages > Add Package Dependency
-2. Enter the repository URL: `https://github.com/yourusername/ChartJS`
+2. Enter the repository URL: `https://github.com/1998code/ChartJS-for-Swift`
 
 ## Usage
 

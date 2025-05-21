@@ -15,8 +15,8 @@ A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, respo
 ## Requirements
 
 - iOS 13.0+ / ~~macOS 10.15+~~(Coming Soon)
-- Swift 5.3+
-- Xcode 12.0+
+- Swift 5.9+
+- Xcode 16.0+
 
 ## Installation
 

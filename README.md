@@ -1,8 +1,8 @@
 # ChartJS for Swift
 
-A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, responsive charts in your iOS and macOS applications.
+A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, responsive charts in your iOS ~~and macOS~~ applications.
 
-
+![ChartJS@3x](https://github.com/user-attachments/assets/9051153e-7d07-4b4f-8da7-fa9ac1793349)
 
 ## Features
 
@@ -14,7 +14,7 @@ A SwiftUI wrapper for Chart.js that allows you to easily create beautiful, respo
 
 ## Requirements
 
-- iOS 13.0+ / macOS 10.15+
+- iOS 13.0+ / ~~macOS 10.15+~~(Coming Soon)
 - Swift 5.3+
 - Xcode 12.0+
 

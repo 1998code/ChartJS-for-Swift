@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A988AE92DDE12BD00632266 /* ChartJS in Frameworks */ = {isa = PBXBuildFile; productRef = 3A988AE82DDE12BD00632266 /* ChartJS */; };
 		3A988AEC2DDE12FA00632266 /* ChartJS in Frameworks */ = {isa = PBXBuildFile; productRef = 3A988AEB2DDE12FA00632266 /* ChartJS */; };
+		3A988B0A2DDE193200632266 /* ChartJS in Frameworks */ = {isa = PBXBuildFile; productRef = 3A988B092DDE193200632266 /* ChartJS */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A988B0A2DDE193200632266 /* ChartJS in Frameworks */,
 				3A988AEC2DDE12FA00632266 /* ChartJS in Frameworks */,
 				3A988AE92DDE12BD00632266 /* ChartJS in Frameworks */,
 			);
@@ -121,6 +123,7 @@
 			packageProductDependencies = (
 				3A988AE82DDE12BD00632266 /* ChartJS */,
 				3A988AEB2DDE12FA00632266 /* ChartJS */,
+				3A988B092DDE193200632266 /* ChartJS */,
 			);
 			productName = "ChartJS Demo";
 			productReference = 3A988ABC2DDE12A900632266 /* ChartJS Demo.app */;
@@ -205,7 +208,7 @@
 			mainGroup = 3A988AB32DDE12A900632266;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				3A988AEA2DDE12FA00632266 /* XCLocalSwiftPackageReference "../../ChartJS" */,
+				3A988B082DDE193200632266 /* XCLocalSwiftPackageReference "../../ChartJS-for-Swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3A988ABD2DDE12A900632266 /* Products */;
@@ -597,9 +600,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		3A988AEA2DDE12FA00632266 /* XCLocalSwiftPackageReference "../../ChartJS" */ = {
+		3A988B082DDE193200632266 /* XCLocalSwiftPackageReference "../../ChartJS-for-Swift" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../ChartJS;
+			relativePath = "../../ChartJS-for-Swift";
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -609,6 +612,10 @@
 			productName = ChartJS;
 		};
 		3A988AEB2DDE12FA00632266 /* ChartJS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChartJS;
+		};
+		3A988B092DDE193200632266 /* ChartJS */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ChartJS;
 		};

@@ -181,3 +181,13 @@ This project is available under the MIT license. See the LICENSE file for more i
 ## Acknowledgements
 
 - [Chart.js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting library
+
+---
+
+## Translations
+
+This doc is also available in:
+
+[English](README.md) | [繁中](README/README.zh-TW.md) / [简中](README/README.zh-CN.md) / [粵語](README/README.zh-HK.md) | [日本語](README/README.ja.md) | [Español](README/README.es.md)
+
+Please feel free to open a pull request and add new language(s) or fix any typos/mistakes.
